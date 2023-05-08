@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidIDELombok/app/src/main/java/com/mrboomdev/androididelombok/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 29,
+          "index": -1,
+          "line": 27
+        },
+        "start": {
+          "column": 29,
+          "index": -1,
+          "line": 27
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/AndroidIDELombok/app/src/main/java/com/mrboomdev/androididelombok/LombokSample.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": -1,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": -1,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/AndroidIDELombok/app/src/main/java/com/mrboomdev/androididelombok/MainActivity.java"
+}
