@@ -38,7 +38,11 @@ public class MainActivity extends AppCompatActivity {
 			.build();
 		Toast.makeText(this, String.valueOf(built.getAge()), Toast.LENGTH_SHORT).show();
 		
-		var allArgsSample = new LombokSample("Hi", 4);
+		var allArgsSample = new LombokSample("Hi", 4, 1);
 		Toast.makeText(this, allArgsSample.getAge() + " : " + allArgsSample.getMessage(), Toast.LENGTH_SHORT).show();
+		
+		var anotherBuilder = LombokSample.builder().build();
+		Toast.makeText(this, String.valueOf(anotherBuilder.getAge()), Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Is same: " + String.valueOf(anotherBuilder.getAge() == anotherBuilder.age), Toast.LENGTH_SHORT).show();
 	}
 }
